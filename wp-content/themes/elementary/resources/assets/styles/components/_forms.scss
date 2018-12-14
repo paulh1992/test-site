@@ -1,0 +1,57 @@
+/** Search form */
+.search-form {
+  @extend .form-inline;
+}
+
+.search-form label {
+  @extend .form-group;
+
+  font-weight: normal;
+}
+
+.search-form .search-field {
+  @extend .form-control;
+}
+
+.search-form .search-submit {
+  @extend .btn;
+  @extend .btn-secondary;
+}
+
+/** Contact form */
+
+.wpcf7 label {
+  font-size: 16px;
+  color: #009093;
+  line-height: 24px;
+}
+
+.wpcf7 {
+  width: 100%;
+}
+
+.wpcf7-form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.wpcf7-form input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.wpcf7-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.wpcf7-form .wpcf7-submit {
+  background: #313131;
+  max-width: 120px;
+  height: 50px;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  margin: 0 auto;
+  display: block;
+}

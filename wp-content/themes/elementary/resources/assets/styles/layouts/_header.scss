@@ -1,0 +1,49 @@
+header {
+  background: #262626;
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 20px 0;
+}
+
+header .container {
+  width: 95%;
+  max-width: 95%;
+}
+
+header .col.logoholder {
+  height: 52px;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
+header .logo {
+  max-width: 185px;
+  vertical-align: middle;
+}
+
+header .button-top {
+  border: 2px solid #009093;
+  height: 56px;
+  width: 100%;
+  color: #fff;
+  display: block;
+  text-align: center;
+  line-height: 52px;
+}
+
+.nav-primary {
+  float: right;
+  margin-right: 50px;
+}
+
+.nav-primary li {
+  margin-left: 50px;
+  line-height: 52px;
+}
+
+.nav-primary li a {
+  color: #fff;
+  font-size: 16px;
+}
